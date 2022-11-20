@@ -67,6 +67,26 @@
       </section>
       <!-- end Experience -->
       {% endif %}
+      
+      {% if site.resume_section_publication %}
+      <!-- begin Publication -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publication</h2>
+        </header>
+
+        {% for publication in site.data.publication %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Publicationissue">
+          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Publication -->
+      {% endif %}
 
 
       {% if site.resume_section_education %}
