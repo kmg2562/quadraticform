@@ -23,7 +23,7 @@ resume_contact_email:           "kmg2562@skku.edu"
 # resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 # display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>My name is Mingyu Kim. I am a postdoctoral researcher at Sungkyunkwan University. I am interested in arithmetic of quadratic forms.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -33,7 +33,7 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      true
+resume_section_experience:      false
 resume_section_publication:     true
 resume_section_education:       true
 resume_section_projects:        false
