@@ -78,8 +78,8 @@
 
         {% for publication in site.data.publication %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Publicationissue">
-          <h3 class="resume-item-title" itemprop="name">{{ publication.1 }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ publication.2 }} &bull; {{ publication.3 }}</h4>
+          <h3 class="resume-item-title" itemprop="name">{{ publication.number }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publication.title }} &bull; {{ publication.info }}</h4>
           <p class="resume-item-copy">{{ publication.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
