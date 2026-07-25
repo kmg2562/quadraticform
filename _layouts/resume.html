@@ -12,8 +12,12 @@
       <header class="page-header">
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
-        {% if site.resume_avatar == 'true' %}
+        <!--{% if site.resume_avatar == 'true' %}
         <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        {% endif %}-->
+
+        {% if site.resume_avatar == 'true' %}
+        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image" style="width: 300px; height: 300px; object-fit: cover;">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
